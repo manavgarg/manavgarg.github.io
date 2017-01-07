@@ -1,0 +1,15 @@
+name: Manav Garg
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+theme: jekyll-theme-minimal
+
+title : I'm Manav !
+tagline: ...
+author :
+  name : Manav Garg
+  email : manavgarg123@gmail.com
+  github : manavgarg
+  facebook: manav.garg.982
+  twitter : manavgarg92
+  linkedin : gargmanav
+  stackoverflow : users/5766053

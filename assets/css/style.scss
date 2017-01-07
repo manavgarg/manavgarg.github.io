@@ -1,0 +1,51 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.img-circle {
+    border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+footer .social {
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+	margin: 0 auto;
+}
+
+footer .social li {
+    display: inline-block;
+	margin: 0 auto;
+}
+
+
+
+footer .social a, footer .social a:hover {
+    text-decoration: none;
+    padding: 10px;
+    position:relative; 
+    cursor:pointer; 
+	margin: 0 auto;
+}
+
+.menu {
+   text-align: center;
+   z-index: 1000;
+   margin-bottom: 10px;
+ }
+ 
+ .menu ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .menu ul li {
+   display: inline-block;
+   padding: 10px;
+   background: #fff;
+   margin: 2px;
+ }
