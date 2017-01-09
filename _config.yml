@@ -1,6 +1,5 @@
 name: Manav Garg
 markdown: kramdown
-#permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-minimal
 
 title : I'm Manav !
