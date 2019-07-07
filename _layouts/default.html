@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><center>{{ site.title | default: site.github.repository_name }}</center></h1>
+        <h1><left>{{ site.title | default: site.github.repository_name }}</left></h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
 		<!--
@@ -37,21 +37,23 @@
 		<img class="img-circle" src="/images/manav.png" style="width: 50%; height: 50%" >
 		<p></p>
 		<p></p>
-		<p><center>Grad Student | Programmer </center></p>
-		<p><center>Mostly Interested in ... 
-		<br>-&gt Distributed Systems 
-		<br>-&gt Big Data 
-		<br>-&gt Machine Learning 
-		<br>-&gt Competitive Programming </center> </p>
+		<p><left>Things I like (in no particular order) ... 
+		<br>-&gt <a href="{{ "distributed"}}">Distributed/BigData Systems</a>
+		<br>-&gt <a href="{{ "chai"}}">Chai</a>
+		<br>-&gt <a href="{{ "bullshit"}}">Bullshitting</a>
+		<br>-&gt <a href="{{ "reinforcement"}}">Reinforcement Learning</a>
+		<br><font color="red">-&gt <a href="{{ "liverpool"}}" style="color: rgb(255,0,0)">Liverpool F.C.</a></font>
+		</left> </p>
       </header>
       <section>     
 	      
+	  <!--
         {% unless page.no_menu %}
            {% include menu.html %}
          {% endunless %}	      
 	      
+		--->
       {{ content }}
-
       </section>
       <footer>
         <ul class="social">
@@ -95,10 +97,7 @@
             </ul>
         
         
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>

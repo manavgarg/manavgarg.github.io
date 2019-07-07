@@ -3,10 +3,23 @@
 
 @import "{{ site.theme }}";
 
+/*header {
+  width:130px;
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+}*/
+
 .img-circle {
     border-radius: 50%;
 	display: block;
 	margin: 0 auto;
+	float: left;
+}
+
+p {
+	clear: left;
+	margin: 0 0 20px;
 }
 
 footer .social {
@@ -14,6 +27,7 @@ footer .social {
     list-style: none;
     display: inline-block;
     margin: 0 auto;
+	float: left;
 }
 
 footer .social li {
@@ -31,6 +45,7 @@ footer .social a, footer .social a:hover {
     margin: 0 auto;
 }
 
+/*
 .menu {
    text-align: center;
    z-index: 1000;
@@ -48,4 +63,4 @@ footer .social a, footer .social a:hover {
    padding: 10px;
    background: #fff;
    margin: 2px;
- }
+ }*/
