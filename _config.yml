@@ -1,6 +1,7 @@
 name: Manav Garg
 markdown: kramdown
 theme: jekyll-theme-minimal
+baseurl: /
 
 title : manav$ ls
 tagline: ...
