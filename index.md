@@ -9,8 +9,8 @@ title: Home
     <h1>Hi, I'm Manav.</h1>
     <p class="lede">
       I work at Google on the <strong>Data Cloud Frontier AI</strong> team,
-      building multi-agent deep research systems over enterprise data — and
-      the evaluation methodology to know whether they actually work.
+      building multi-agent deep research systems over enterprise data, along
+      with the evaluation methodology to know whether they actually work.
     </p>
   </div>
 </div>
@@ -18,14 +18,14 @@ title: Home
 My interests are in **AI, both applied and research**: multi-agent systems,
 agent quality and evaluation, and learned optimization / program synthesis.
 What I bring to it is nearly a decade of building large-scale distributed
-systems — the infrastructure this generation of AI runs on.
+systems, the infrastructure this generation of AI runs on.
 
 Before joining the Frontier AI team, I worked on
 [Cloud Dataflow](https://cloud.google.com/dataflow), Google's planet-scale
 data processing service, and before that built big-data infrastructure at
-Nutanix. That background — making distributed systems fast, correct, and
-boring at scale — is the lens I bring to AI infrastructure: agents are only
-as good as the data systems underneath them.
+Nutanix. That work was about making distributed systems fast, correct, and
+boring at scale, and it shapes how I look at AI infrastructure: agents are
+only as good as the data systems underneath them.
 
 <h2 id="research">Research &amp; writing</h2>
 
@@ -49,8 +49,9 @@ as good as the data systems underneath them.
   <p>Introduces Discovery Bench: query difficulty quantified in bits of
   surprisal rather than "easy/hard" vibes, controlled query variations, and
   capability maps that expose exactly where agent performance falls off a
-  cliff — including mislabeled ground truth in existing benchmarks and sweet
-  spots where moderate ambiguity beats maximum specificity.</p>
+  cliff. The approach also surfaced mislabeled ground truth in existing
+  benchmarks, and sweet spots where moderate ambiguity beats maximum
+  specificity.</p>
 </div>
 
 <div class="item">
@@ -66,7 +67,7 @@ as good as the data systems underneath them.
   <span class="meta">· 2020 – current</span>
   <div class="subitem">
     <span class="subtitle">Data Cloud Frontier AI</span>
-    <p>Building multi-agent deep research agents over enterprise data —
+    <p>Building multi-agent deep research agents over enterprise data:
     systems where specialized agents plan, retrieve, and reason together over
     governed data estates. My focus is agent quality and evaluation:
     information-theoretic benchmark generation for data-discovery agents
@@ -78,11 +79,11 @@ as good as the data systems underneath them.
   <div class="subitem">
     <span class="subtitle">Cloud Dataflow</span>
     <p>Tech lead in Dataflow's service &amp; platform area. Took two products
-    from zero to launch —
+    from zero to launch:
     <a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Data
     Pipelines</a> (grew past 1,000 external customer accounts at 4x YoY) and
-    Google Managed Flink (through Public Preview) — and worked on enabling
-    Dataflow in Trusted Private Cloud environments. Contributed to
+    Google Managed Flink (through Public Preview). Also worked on enabling
+    Dataflow in Trusted Private Cloud environments and contributed to
     <a href="https://beam.apache.org/">Apache Beam</a> in open source.</p>
   </div>
 </div>
