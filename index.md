@@ -67,22 +67,17 @@ as good as the data systems underneath them.
 <h2 id="work">Work</h2>
 
 <div class="item">
-  <span class="title">Google · Data Cloud Frontier AI</span>
-  <span class="meta">· Senior Software Engineer · current</span>
-  <p>Building multi-agent deep research agents over enterprise data, with a
-  focus on agent quality and evaluation: capability-mapping benchmarks for
-  data-discovery agents
+  <span class="title">Google</span>
+  <span class="meta">· 2020 – current</span>
+  <p><strong>Data Cloud Frontier AI</strong> — Building multi-agent deep
+  research agents over enterprise data, with a focus on agent quality and
+  evaluation: capability-mapping benchmarks for data-discovery agents
   (<a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Discovery
   Bench</a>) and the eval methodology behind shipping agentic products.</p>
-</div>
-
-<div class="item">
-  <span class="title">Google · Cloud Dataflow</span>
-  <span class="meta">· Senior Software Engineer &amp; Tech Lead · ~6 years</span>
-  <p>Tech lead for Dataflow's service &amp; platform area (team of ~11):
-  control plane, lifecycle management, resource provisioning, and billing for
-  a planet-scale data processing service. Took two products from zero to
-  launch as TL —
+  <p><strong>Cloud Dataflow</strong> — Tech lead for Dataflow's service &amp;
+  platform area (team of ~11): control plane, lifecycle management, resource
+  provisioning, and billing for a planet-scale data processing service. Took
+  two products from zero to launch as TL —
   <a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Data
   Pipelines</a> (scheduling, SLOs, and fleet management; grew past 1,000
   external customer accounts with 4x YoY growth) and Google Managed Flink
@@ -93,8 +88,8 @@ as good as the data systems underneath them.
 </div>
 
 <div class="item">
-  <span class="title">Nutanix · Big Data Infrastructure</span>
-  <span class="meta">· Member of Technical Staff · 2017 – 2020</span>
+  <span class="title">Nutanix</span>
+  <span class="meta">· 2017 – 2020</span>
   <p>Built a fault-tolerant big-data insights platform connecting on-prem
   telemetry to cloud analytics pipelines. Owned the cloud metering &amp;
   billing service (HA, monitored, audit-trailed) and contributed to the
@@ -105,7 +100,8 @@ as good as the data systems underneath them.
   <span class="title">Education</span>
   <span class="meta"></span>
   <p>M.S., University of Wisconsin–Madison (computer architecture &amp;
-  distributed systems). B.E., BITS Pilani.</p>
+  distributed systems)<br>
+  B.E., BITS Pilani</p>
 </div>
 
 <h2 id="elsewhere">Off hours</h2>
