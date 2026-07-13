@@ -33,7 +33,7 @@ evaluation of agentic workflows, and program synthesis / learned optimization.
 Some of my work, in public:
 
 <div class="item">
-  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Beyond pass/fail: mapping where AI agents actually break</a></span>
+  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Frontier and Center: Who evaluates the evaluations?</a></span>
   <span class="meta">· Google Cloud Blog, July 2026 · with Sunil Pedapudi</span>
   <p>Introduces Discovery Bench, an information-theoretic meta-benchmark for
   data-discovery agents. Instead of subjective "easy/hard" labels, it
@@ -45,7 +45,7 @@ Some of my work, in public:
 </div>
 
 <div class="item">
-  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Dataflow Pipelines: manage your Dataflow jobs at scale</a></span>
+  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Dataflow Pipelines, deploy and manage data pipelines at scale</a></span>
   <span class="meta">· Google Cloud Blog, October 2021 · with Shan Kulandaivel</span>
   <p>Launch of a management plane for data pipelines: a logical abstraction
   over Dataflow jobs with recurring-job scheduling, SLO tracking with native
@@ -80,7 +80,14 @@ Some of my work, in public:
   {% for post in site.posts limit: 5 %}
   <li>
     <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span>
+      {% if post.external_url %}
+      <a href="{{ post.external_url }}">{{ post.title }}</a>
+      <span class="meta">&nearr; {{ post.source }}</span>
+      {% else %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% endif %}
+    </span>
   </li>
   {% endfor %}
 </ul>
