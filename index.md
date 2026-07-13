@@ -8,10 +8,9 @@ title: Home
   <div>
     <h1>Hi, I'm Manav.</h1>
     <p class="lede">
-      I'm a senior software engineer at Google on the
-      <strong>Data Cloud Frontier AI</strong> team, building multi-agent deep
-      research systems over enterprise data — and the evaluation methodology
-      to know whether they actually work.
+      I work at Google on the <strong>Data Cloud Frontier AI</strong> team,
+      building multi-agent deep research systems over enterprise data — and
+      the evaluation methodology to know whether they actually work.
     </p>
   </div>
 </div>
@@ -60,8 +59,6 @@ as good as the data systems underneath them.
   <p>Launch post for the Dataflow Pipelines management plane.</p>
 </div>
 
-<p><a href="{{ '/writing/' | relative_url }}">All writing &rarr;</a></p>
-
 <h2 id="work">Work</h2>
 
 <div class="item">
@@ -102,8 +99,7 @@ as good as the data systems underneath them.
 <div class="item">
   <span class="title">Education</span>
   <span class="meta"></span>
-  <p>M.S., University of Wisconsin–Madison (computer architecture &amp;
-  distributed systems)<br>
+  <p>M.S., University of Wisconsin–Madison<br>
   B.E., BITS Pilani</p>
 </div>
 
