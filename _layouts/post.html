@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
+<article class="post">
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
+  </header>
   {{ content }}
-</div>
+</article>
+
+<p class="back-link"><a href="{{ '/writing/' | relative_url }}">&larr; All writing</a></p>

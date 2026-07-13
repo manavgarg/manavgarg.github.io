@@ -1,15 +1,25 @@
-name: Manav Garg
-markdown: kramdown
-theme: jekyll-theme-minimal
-baseurl: /
+title: Manav Garg
+description: >-
+  Software engineer at Google working on agentic AI systems for the Data Cloud.
+  Previously spent ~6 years building planet-scale distributed data processing
+  on Cloud Dataflow.
+url: "https://manavgarg.github.io"
+baseurl: ""
 
-title : manav$ ls
-tagline: ...
-author :
-  name : Manav Garg
-  email : manavgarg123@gmail.com
-  github : manavgarg
-  facebook: manav.garg.982
-  twitter : manavgarg92
-  linkedin : gargmanav
-  stackoverflow : users/5766053
+markdown: kramdown
+permalink: /writing/:year/:title/
+
+author:
+  name: Manav Garg
+  email: manavgarg123@gmail.com
+
+github_username: manavgarg
+linkedin_username: gargmanav
+scholar_url: "https://scholar.google.com/citations?user=8OVdoYUAAAAJ"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
