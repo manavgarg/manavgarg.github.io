@@ -10,7 +10,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #16181d;
     --text: #e6e6e3;
     --muted: #9a9a94;
@@ -18,6 +18,15 @@
     --rule: #2c2f36;
     --code-bg: #22252c;
   }
+}
+
+:root[data-theme="dark"] {
+  --bg: #16181d;
+  --text: #e6e6e3;
+  --muted: #9a9a94;
+  --accent: #7aa2f7;
+  --rule: #2c2f36;
+  --code-bg: #22252c;
 }
 
 * {
@@ -71,15 +80,58 @@ a:hover {
   letter-spacing: -0.01em;
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+}
+
 .nav-links a {
   color: var(--muted);
-  margin-left: 1.1rem;
   font-size: 0.95rem;
 }
 
 .nav-links a:hover {
   color: var(--accent);
   text-decoration: none;
+}
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.95rem;
+  line-height: 1;
+  padding: 0.3rem 0.55rem;
+}
+
+.theme-toggle:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.theme-toggle .sun {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-toggle .sun {
+  display: inline;
+}
+
+:root[data-theme="dark"] .theme-toggle .moon {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .sun {
+    display: inline;
+  }
+
+  :root:not([data-theme="light"]) .theme-toggle .moon {
+    display: none;
+  }
 }
 
 /* Headings */
@@ -109,22 +161,31 @@ h3 {
 /* Intro / hero */
 .intro {
   display: flex;
-  gap: 1.4rem;
-  align-items: flex-start;
+  gap: 1.6rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 .intro .portrait {
-  width: 92px;
-  height: 92px;
+  width: 108px;
+  height: 108px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  margin-top: 0.4rem;
+}
+
+.intro h1 {
+  margin: 0 0 0.6rem;
+}
+
+.intro .lede {
+  margin: 0;
 }
 
 @media (max-width: 480px) {
   .intro {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -160,6 +221,17 @@ ul.post-list .meta {
 
 .item p + p {
   margin-top: 0.7rem;
+}
+
+.subitem {
+  margin: 0.8rem 0 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+}
+
+.subitem .subtitle {
+  font-weight: 600;
+  font-size: 0.98rem;
 }
 
 ul.post-list {

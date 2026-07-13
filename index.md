@@ -21,7 +21,7 @@ agent quality and evaluation, and learned optimization / program synthesis.
 What I bring to it is nearly a decade of building large-scale distributed
 systems — the infrastructure this generation of AI runs on.
 
-Before the frontier team, I spent about six years on
+Before joining the Frontier AI team, I worked on
 [Cloud Dataflow](https://cloud.google.com/dataflow), Google's planet-scale
 data processing service, and before that built big-data infrastructure at
 Nutanix. That background — making distributed systems fast, correct, and
@@ -33,11 +33,9 @@ as good as the data systems underneath them.
 <div class="item">
   <span class="title"><a href="https://arxiv.org/abs/2312.08472">AutoNumerics-Zero: Automated Discovery of State-of-the-Art Mathematical Functions</a></span>
   <span class="meta">· ICML 2026</span>
-  <p>Esteban Real, Yao Chen, Mirko Rossini, Connal de Souza, <strong>Manav
-  Garg</strong>, Akhil Verghese, Moritz Firsching, Quoc V. Le, Ekin Dogus
-  Cubuk, David H. Park. Evolutionary search that discovers transcendental
-  function implementations from empty code, beating classical approximation
-  methods at limited precision.</p>
+  <p>Evolutionary search that discovers transcendental function
+  implementations from empty code, beating classical approximation methods
+  at limited precision. A collaboration with Google DeepMind.</p>
   <p class="meta">
     <a href="https://arxiv.org/abs/2312.08472">arXiv</a> ·
     <a href="https://openreview.net/forum?id=n7F2nwPcYB">OpenReview</a> ·
@@ -48,7 +46,7 @@ as good as the data systems underneath them.
 
 <div class="item">
   <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Frontier and Center: Who evaluates the evaluations?</a></span>
-  <span class="meta">· Google Cloud Blog, July 2026 · with Sunil Pedapudi</span>
+  <span class="meta">· Google Cloud Blog, July 2026</span>
   <p>Introduces Discovery Bench: query difficulty quantified in bits of
   surprisal rather than "easy/hard" vibes, controlled query variations, and
   capability maps that expose exactly where agent performance falls off a
@@ -58,7 +56,7 @@ as good as the data systems underneath them.
 
 <div class="item">
   <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Dataflow Pipelines, deploy and manage data pipelines at scale</a></span>
-  <span class="meta">· Google Cloud Blog, October 2021 · with Shan Kulandaivel</span>
+  <span class="meta">· Google Cloud Blog, October 2021</span>
   <p>Launch post for the Dataflow Pipelines management plane.</p>
 </div>
 
@@ -69,22 +67,27 @@ as good as the data systems underneath them.
 <div class="item">
   <span class="title">Google</span>
   <span class="meta">· 2020 – current</span>
-  <p><strong>Data Cloud Frontier AI</strong> — Building multi-agent deep
-  research agents over enterprise data, with a focus on agent quality and
-  evaluation: capability-mapping benchmarks for data-discovery agents
-  (<a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Discovery
-  Bench</a>) and the eval methodology behind shipping agentic products.</p>
-  <p><strong>Cloud Dataflow</strong> — Tech lead for Dataflow's service &amp;
-  platform area (team of ~11): control plane, lifecycle management, resource
-  provisioning, and billing for a planet-scale data processing service. Took
-  two products from zero to launch as TL —
-  <a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Data
-  Pipelines</a> (scheduling, SLOs, and fleet management; grew past 1,000
-  external customer accounts with 4x YoY growth) and Google Managed Flink
-  (open-source Flink as a managed GCP service, through Public Preview).
-  Worked on enabling Dataflow in Trusted Private Cloud environments.
-  Contributed to <a href="https://beam.apache.org/">Apache Beam</a> in open
-  source.</p>
+  <div class="subitem">
+    <span class="subtitle">Data Cloud Frontier AI</span>
+    <p>Building multi-agent deep research agents over enterprise data —
+    systems where specialized agents plan, retrieve, and reason together over
+    governed data estates. My focus is agent quality and evaluation:
+    information-theoretic benchmark generation for data-discovery agents
+    (<a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Discovery
+    Bench</a>), capability maps that localize failure modes instead of
+    averaging them away, and the eval methodology behind shipping agentic
+    products.</p>
+  </div>
+  <div class="subitem">
+    <span class="subtitle">Cloud Dataflow</span>
+    <p>Tech lead in Dataflow's service &amp; platform area. Took two products
+    from zero to launch —
+    <a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Data
+    Pipelines</a> (grew past 1,000 external customer accounts at 4x YoY) and
+    Google Managed Flink (through Public Preview) — and worked on enabling
+    Dataflow in Trusted Private Cloud environments. Contributed to
+    <a href="https://beam.apache.org/">Apache Beam</a> in open source.</p>
+  </div>
 </div>
 
 <div class="item">
