@@ -8,53 +8,25 @@ title: Home
   <div>
     <h1>Hi, I'm Manav.</h1>
     <p class="lede">
-      I'm a software engineer at Google, where I work on the
-      <strong>Data Cloud Frontier</strong> team building agentic AI systems on
-      top of Google's Data Cloud &mdash; the infrastructure that lets AI agents
-      reason over and act on enterprise data.
+      I'm a senior software engineer at Google on the
+      <strong>Data Cloud Frontier AI</strong> team, building multi-agent deep
+      research systems over enterprise data — and the evaluation methodology
+      to know whether they actually work.
     </p>
   </div>
 </div>
 
-Before this, I spent about six years on [Cloud Dataflow](https://cloud.google.com/dataflow),
-Google's planet-scale distributed data processing service, working deep in the
-guts of large-scale streaming and batch systems and contributing to
-[Apache Beam](https://beam.apache.org/) along the way. That background —
-making distributed systems fast, correct, and boring at scale — is the lens I
-bring to the current wave of AI infrastructure: agents are only as good as the
-data systems underneath them.
+My interests are in **AI, both applied and research**: multi-agent systems,
+agent quality and evaluation, and learned optimization / program synthesis.
+What I bring to it is nearly a decade of building large-scale distributed
+systems — the infrastructure this generation of AI runs on.
 
-I'm interested in the intersection of **large-scale systems and applied AI**:
-agent runtimes and tooling, retrieval and context engines over structured data,
-evaluation of agentic workflows, and program synthesis / learned optimization.
-
-<h2 id="work">Work</h2>
-
-<div class="item">
-  <span class="title">Google · Data Cloud Frontier AI</span>
-  <span class="meta">· Software Engineer · current</span>
-  <p>Building agentic AI systems on Google's Data Cloud. Recent work on
-  rigorous evaluation of data-discovery agents — an information-theoretic
-  meta-benchmark that maps where agents break instead of scoring pass/fail
-  (<a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Discovery Bench</a>).</p>
-</div>
-
-<div class="item">
-  <span class="title">Google · Cloud Dataflow</span>
-  <span class="meta">· Software Engineer · ~6 years</span>
-  <p>Planet-scale streaming and batch data processing. Launched
-  <a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Dataflow
-  Pipelines</a>, a management plane for pipelines at scale — recurring-job
-  scheduling, SLO tracking with alerting, fleet-level health monitoring.
-  Contributed to <a href="https://beam.apache.org/">Apache Beam</a> in open
-  source.</p>
-</div>
-
-<div class="item">
-  <span class="title">Nutanix</span>
-  <span class="meta">· Software Engineer</span>
-  <p><!-- TODO: fill in from detailed summary --></p>
-</div>
+Before the frontier team, I spent about six years on
+[Cloud Dataflow](https://cloud.google.com/dataflow), Google's planet-scale
+data processing service, and before that built big-data infrastructure at
+Nutanix. That background — making distributed systems fast, correct, and
+boring at scale — is the lens I bring to AI infrastructure: agents are only
+as good as the data systems underneath them.
 
 <h2 id="research">Research &amp; writing</h2>
 
@@ -63,7 +35,9 @@ evaluation of agentic workflows, and program synthesis / learned optimization.
   <span class="meta">· ICML 2026</span>
   <p>Esteban Real, Yao Chen, Mirko Rossini, Connal de Souza, <strong>Manav
   Garg</strong>, Akhil Verghese, Moritz Firsching, Quoc V. Le, Ekin Dogus
-  Cubuk, David H. Park.</p>
+  Cubuk, David H. Park. Evolutionary search that discovers transcendental
+  function implementations from empty code, beating classical approximation
+  methods at limited precision.</p>
   <p class="meta">
     <a href="https://arxiv.org/abs/2312.08472">arXiv</a> ·
     <a href="https://openreview.net/forum?id=n7F2nwPcYB">OpenReview</a> ·
@@ -90,6 +64,50 @@ evaluation of agentic workflows, and program synthesis / learned optimization.
 
 <p><a href="{{ '/writing/' | relative_url }}">All writing &rarr;</a></p>
 
+<h2 id="work">Work</h2>
+
+<div class="item">
+  <span class="title">Google · Data Cloud Frontier AI</span>
+  <span class="meta">· Senior Software Engineer · current</span>
+  <p>Building multi-agent deep research agents over enterprise data, with a
+  focus on agent quality and evaluation: capability-mapping benchmarks for
+  data-discovery agents
+  (<a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Discovery
+  Bench</a>) and the eval methodology behind shipping agentic products.</p>
+</div>
+
+<div class="item">
+  <span class="title">Google · Cloud Dataflow</span>
+  <span class="meta">· Senior Software Engineer &amp; Tech Lead · ~6 years</span>
+  <p>Tech lead for Dataflow's service &amp; platform area (team of ~11):
+  control plane, lifecycle management, resource provisioning, and billing for
+  a planet-scale data processing service. Took two products from zero to
+  launch as TL —
+  <a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Data
+  Pipelines</a> (scheduling, SLOs, and fleet management; grew past 1,000
+  external customer accounts with 4x YoY growth) and Google Managed Flink
+  (open-source Flink as a managed GCP service, through Public Preview).
+  Worked on enabling Dataflow in Trusted Private Cloud environments.
+  Contributed to <a href="https://beam.apache.org/">Apache Beam</a> in open
+  source.</p>
+</div>
+
+<div class="item">
+  <span class="title">Nutanix · Big Data Infrastructure</span>
+  <span class="meta">· Member of Technical Staff · 2017 – 2020</span>
+  <p>Built a fault-tolerant big-data insights platform connecting on-prem
+  telemetry to cloud analytics pipelines. Owned the cloud metering &amp;
+  billing service (HA, monitored, audit-trailed) and contributed to the
+  real-time alerting engine built on Spark SQL.</p>
+</div>
+
+<div class="item">
+  <span class="title">Education</span>
+  <span class="meta"></span>
+  <p>M.S., University of Wisconsin–Madison (computer architecture &amp;
+  distributed systems). B.E., BITS Pilani.</p>
+</div>
+
 <h2 id="elsewhere">Off hours</h2>
 
-Strong opinions about chai. Stronger opinions about Liverpool F.C.
+Runs on chai. Never walks alone on matchdays.
