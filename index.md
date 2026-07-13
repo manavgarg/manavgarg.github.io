@@ -18,10 +18,11 @@ title: Home
 
 Before this, I spent about six years on [Cloud Dataflow](https://cloud.google.com/dataflow),
 Google's planet-scale distributed data processing service, working deep in the
-guts of large-scale streaming and batch systems. That background — making
-distributed systems fast, correct, and boring at scale — is the lens I bring
-to the current wave of AI infrastructure: agents are only as good as the data
-systems underneath them.
+guts of large-scale streaming and batch systems and contributing to
+[Apache Beam](https://beam.apache.org/) along the way. That background —
+making distributed systems fast, correct, and boring at scale — is the lens I
+bring to the current wave of AI infrastructure: agents are only as good as the
+data systems underneath them.
 
 I'm interested in the intersection of **large-scale systems and applied AI**:
 agent runtimes and tooling, retrieval and context engines over structured data,
@@ -29,28 +30,32 @@ evaluation of agentic workflows, and program synthesis / learned optimization.
 
 <h2 id="work">Work</h2>
 
-A few public write-ups of what my team's product area has been shipping:
+Some of my work, in public:
 
 <div class="item">
-  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/data-agent-kit-brings-data-skills-and-tools-to-your-ide-or-cli">Data Agent Kit: data skills and tools in your IDE or CLI</a></span>
-  <span class="meta">· Google Cloud Blog, May 2026</span>
-  <p>An open-source collection of agentic skills, MCP tools, and plugins that
-  connect coding agents (VS Code, Claude Code, Codex, Gemini CLI, Antigravity)
-  to BigQuery, AlloyDB, and the rest of the Data Cloud.</p>
+  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Beyond pass/fail: mapping where AI agents actually break</a></span>
+  <span class="meta">· Google Cloud Blog, July 2026 · with Sunil Pedapudi</span>
+  <p>Introduces Discovery Bench, an information-theoretic meta-benchmark for
+  data-discovery agents. Instead of subjective "easy/hard" labels, it
+  quantifies query difficulty in bits of surprisal and generates controlled
+  variations of each query — producing capability maps that show exactly
+  where an agent's performance falls off a cliff. Along the way it surfaced
+  mislabeled ground truth in existing benchmarks and some counterintuitive
+  sweet spots where moderate ambiguity beats maximum specificity.</p>
 </div>
 
 <div class="item">
-  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/new-data-agents-across-the-agentic-data-cloud">New data agents across the Agentic Data Cloud</a></span>
-  <span class="meta">· Google Cloud Blog, June 2026</span>
-  <p>Data Engineering, Data Science, Deep Research, and database agents —
-  grounding agentic workflows in enterprise data with governance built in.</p>
+  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Dataflow Pipelines: manage your Dataflow jobs at scale</a></span>
+  <span class="meta">· Google Cloud Blog, October 2021 · with Shan Kulandaivel</span>
+  <p>Launch of a management plane for data pipelines: a logical abstraction
+  over Dataflow jobs with recurring-job scheduling, SLO tracking with native
+  alerting, and aggregated health metrics across projects and pipelines.</p>
 </div>
 
 <div class="item">
-  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/whats-new-in-the-agentic-data-cloud">What's new in the Agentic Data Cloud</a></span>
-  <span class="meta">· Google Cloud Blog, April 2026</span>
-  <p>The bigger picture: turning the data platform from a static repository
-  into a reasoning engine for autonomous agents.</p>
+  <span class="title"><a href="https://github.com/manavgarg">Apache Beam contributions</a></span>
+  <span class="meta">· open source</span>
+  <p>Contributions to Apache Beam, the programming model behind Dataflow.</p>
 </div>
 
 <h2 id="publications">Publications</h2>
