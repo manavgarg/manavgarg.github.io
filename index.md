@@ -30,35 +30,33 @@ evaluation of agentic workflows, and program synthesis / learned optimization.
 
 <h2 id="work">Work</h2>
 
-Some of my work, in public:
-
 <div class="item">
-  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Frontier and Center: Who evaluates the evaluations?</a></span>
-  <span class="meta">· Google Cloud Blog, July 2026 · with Sunil Pedapudi</span>
-  <p>Introduces Discovery Bench, an information-theoretic meta-benchmark for
-  data-discovery agents. Instead of subjective "easy/hard" labels, it
-  quantifies query difficulty in bits of surprisal and generates controlled
-  variations of each query — producing capability maps that show exactly
-  where an agent's performance falls off a cliff. Along the way it surfaced
-  mislabeled ground truth in existing benchmarks and some counterintuitive
-  sweet spots where moderate ambiguity beats maximum specificity.</p>
+  <span class="title">Google · Data Cloud Frontier AI</span>
+  <span class="meta">· Software Engineer · current</span>
+  <p>Building agentic AI systems on Google's Data Cloud. Recent work on
+  rigorous evaluation of data-discovery agents — an information-theoretic
+  meta-benchmark that maps where agents break instead of scoring pass/fail
+  (<a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Discovery Bench</a>).</p>
 </div>
 
 <div class="item">
-  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Dataflow Pipelines, deploy and manage data pipelines at scale</a></span>
-  <span class="meta">· Google Cloud Blog, October 2021 · with Shan Kulandaivel</span>
-  <p>Launch of a management plane for data pipelines: a logical abstraction
-  over Dataflow jobs with recurring-job scheduling, SLO tracking with native
-  alerting, and aggregated health metrics across projects and pipelines.</p>
+  <span class="title">Google · Cloud Dataflow</span>
+  <span class="meta">· Software Engineer · ~6 years</span>
+  <p>Planet-scale streaming and batch data processing. Launched
+  <a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Dataflow
+  Pipelines</a>, a management plane for pipelines at scale — recurring-job
+  scheduling, SLO tracking with alerting, fleet-level health monitoring.
+  Contributed to <a href="https://beam.apache.org/">Apache Beam</a> in open
+  source.</p>
 </div>
 
 <div class="item">
-  <span class="title"><a href="https://github.com/manavgarg">Apache Beam contributions</a></span>
-  <span class="meta">· open source</span>
-  <p>Contributions to Apache Beam, the programming model behind Dataflow.</p>
+  <span class="title">Nutanix</span>
+  <span class="meta">· Software Engineer</span>
+  <p><!-- TODO: fill in from detailed summary --></p>
 </div>
 
-<h2 id="publications">Publications</h2>
+<h2 id="research">Research &amp; writing</h2>
 
 <div class="item">
   <span class="title"><a href="https://arxiv.org/abs/2312.08472">AutoNumerics-Zero: Automated Discovery of State-of-the-Art Mathematical Functions</a></span>
@@ -74,23 +72,21 @@ Some of my work, in public:
   </p>
 </div>
 
-<h2 id="writing">Writing</h2>
+<div class="item">
+  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Frontier and Center: Who evaluates the evaluations?</a></span>
+  <span class="meta">· Google Cloud Blog, July 2026 · with Sunil Pedapudi</span>
+  <p>Introduces Discovery Bench: query difficulty quantified in bits of
+  surprisal rather than "easy/hard" vibes, controlled query variations, and
+  capability maps that expose exactly where agent performance falls off a
+  cliff — including mislabeled ground truth in existing benchmarks and sweet
+  spots where moderate ambiguity beats maximum specificity.</p>
+</div>
 
-<ul class="post-list">
-  {% for post in site.posts limit: 5 %}
-  <li>
-    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <span>
-      {% if post.external_url %}
-      <a href="{{ post.external_url }}">{{ post.title }}</a>
-      <span class="meta">&nearr; {{ post.source }}</span>
-      {% else %}
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      {% endif %}
-    </span>
-  </li>
-  {% endfor %}
-</ul>
+<div class="item">
+  <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Dataflow Pipelines, deploy and manage data pipelines at scale</a></span>
+  <span class="meta">· Google Cloud Blog, October 2021 · with Shan Kulandaivel</span>
+  <p>Launch post for the Dataflow Pipelines management plane.</p>
+</div>
 
 <p><a href="{{ '/writing/' | relative_url }}">All writing &rarr;</a></p>
 
