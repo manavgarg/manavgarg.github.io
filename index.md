@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="intro">
-  <img class="portrait" src="/images/manav.png" alt="Manav Garg">
+  <img class="portrait" src="/images/manav.jpg" alt="Manav Garg">
   <div>
     <h1>Hi, I'm Manav.</h1>
     <p class="lede">
