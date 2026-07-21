@@ -34,12 +34,15 @@ only as good as the data systems underneath them.
   <span class="meta">· ICML 2026</span>
   <p>Evolutionary search that discovers transcendental function
   implementations from empty code, beating classical approximation methods
-  at limited precision. A collaboration with Google DeepMind.</p>
+  at limited precision. Our entry won the Gold Award at the 23rd annual
+  <a href="https://www.human-competitive.org/23rd-annual-humies-awards-san-jose-costa-rica">Humies</a>,
+  the GECCO awards for human-competitive results produced by evolutionary
+  computation.</p>
   <p class="meta">
     <a href="https://arxiv.org/abs/2312.08472">arXiv</a> ·
     <a href="https://openreview.net/forum?id=n7F2nwPcYB">OpenReview</a> ·
     <a href="https://github.com/google-deepmind/autonumerics_zero">Code</a> ·
-    <a href="{{ site.scholar_url }}">Google Scholar</a>
+    <a href="https://www.human-competitive.org/23rd-annual-humies-awards-san-jose-costa-rica">Humies Gold Award</a>
   </p>
 </div>
 

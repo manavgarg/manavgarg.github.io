@@ -26,3 +26,8 @@ Verghese, Moritz Firsching, Quoc V. Le, Ekin Dogus Cubuk, and David H. Park.
 Links: [arXiv](https://arxiv.org/abs/2312.08472) ·
 [OpenReview](https://openreview.net/forum?id=n7F2nwPcYB) ·
 [code](https://github.com/google-deepmind/autonumerics_zero)
+
+*Update: our entry based on this work won the Gold Award at the
+[23rd annual Humies](https://www.human-competitive.org/23rd-annual-humies-awards-san-jose-costa-rica)
+at GECCO 2026, the awards for human-competitive results produced by genetic
+and evolutionary computation.*
