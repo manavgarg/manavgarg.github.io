@@ -1,32 +1,34 @@
 ---
 ---
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;650&family=Source+Code+Pro:wght@400;600&display=swap");
+
 :root {
-  --bg: #fdfdfc;
+  --bg: #f2eede;
   --text: #1a1a1a;
-  --muted: #6b6b6b;
-  --accent: #1a56db;
-  --rule: #e6e6e2;
-  --code-bg: #f2f2ee;
+  --muted: #85837a;
+  --accent: #1e6fcc;
+  --rule: #c6c3b6;
+  --code-bg: #e9e4d2;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #16181d;
-    --text: #e6e6e3;
-    --muted: #9a9a94;
-    --accent: #7aa2f7;
-    --rule: #2c2f36;
-    --code-bg: #22252c;
+    --bg: #181818;
+    --text: #c8c8c3;
+    --muted: #8a8a83;
+    --accent: #5a9cf5;
+    --rule: #3a3a36;
+    --code-bg: #242422;
   }
 }
 
 :root[data-theme="dark"] {
-  --bg: #16181d;
-  --text: #e6e6e3;
-  --muted: #9a9a94;
-  --accent: #7aa2f7;
-  --rule: #2c2f36;
-  --code-bg: #22252c;
+  --bg: #181818;
+  --text: #c8c8c3;
+  --muted: #8a8a83;
+  --accent: #5a9cf5;
+  --rule: #3a3a36;
+  --code-bg: #242422;
 }
 
 * {
@@ -41,8 +43,8 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
   font-size: 1.0625rem;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
@@ -143,7 +145,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.05rem;
+  font-family: "Source Code Pro", ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.95rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--muted);
@@ -204,7 +207,8 @@ h3 {
 
 .meta {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-family: "Source Code Pro", ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.8rem;
 }
 
 .meta a {
@@ -249,7 +253,8 @@ ul.post-list li {
 
 ul.post-list .date {
   color: var(--muted);
-  font-size: 0.88rem;
+  font-family: "Source Code Pro", ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.8rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
   min-width: 6.5rem;
