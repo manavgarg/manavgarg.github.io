@@ -31,7 +31,7 @@ only as good as the data systems underneath them.
 
 <div class="item">
   <span class="title"><a href="https://arxiv.org/abs/2312.08472">AutoNumerics-Zero: Automated Discovery of State-of-the-Art Mathematical Functions</a></span>
-  <span class="meta">· ICML 2026</span>
+  <div class="meta">ICML 2026</div>
   <p>Evolutionary search that discovers transcendental function
   implementations from empty code, beating classical approximation methods
   at limited precision. Our entry won the Gold Award at the 23rd annual
@@ -48,7 +48,7 @@ only as good as the data systems underneath them.
 
 <div class="item">
   <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Frontier and Center: Who evaluates the evaluations?</a></span>
-  <span class="meta">· Google Cloud Blog, July 2026</span>
+  <div class="meta">Google Cloud Blog, July 2026</div>
   <p>Introduces Discovery Bench: query difficulty quantified in bits of
   surprisal rather than "easy/hard" vibes, controlled query variations, and
   capability maps that expose exactly where agent performance falls off a
@@ -59,7 +59,7 @@ only as good as the data systems underneath them.
 
 <div class="item">
   <span class="title"><a href="https://cloud.google.com/blog/products/data-analytics/manage-your-dataflow-jobs-at-scale-with-dataflow-pipelines/">Dataflow Pipelines, deploy and manage data pipelines at scale</a></span>
-  <span class="meta">· Google Cloud Blog, October 2021</span>
+  <div class="meta">Google Cloud Blog, October 2021</div>
   <p>Launch post for the Dataflow Pipelines management plane.</p>
 </div>
 
