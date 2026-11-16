@@ -15,10 +15,11 @@ title: Home
   </div>
 </div>
 
-My interests are in **AI, both applied and research**: multi-agent systems,
-agent quality and evaluation, and learned optimization / program synthesis.
-What I bring to it is nearly a decade of building large-scale distributed
-systems, the infrastructure this generation of AI runs on.
+My interests are in **AI, both applied and research**: multi-agent and
+self-evolving systems, agent quality and evaluation, and learned optimization /
+program synthesis. What I bring to it is nearly a decade of building
+large-scale distributed systems, the infrastructure this generation of AI runs
+on.
 
 Before joining the Frontier AI team, I worked on
 [Cloud Dataflow](https://cloud.google.com/dataflow), Google's planet-scale
@@ -28,6 +29,38 @@ boring at scale, and it shapes how I look at AI infrastructure: agents are
 only as good as the data systems underneath them.
 
 <h2 id="research">Research &amp; writing</h2>
+
+<div class="item">
+  <span class="title"><a href="https://arxiv.org/abs/2611.14765">SynthCorp: A Platform for Creating Benchmarks for Data Agents</a></span>
+  <div class="meta">Under review at VLDB · November 2026</div>
+  <p>Simulates how routine operations and business disruptions evolve corporate
+  data over time, materializing mutually consistent relational tables, policy
+  documents, and incomplete metadata catalogs. Because every complexity traces
+  to a logged event on a virtual calendar, SynthCorp derives customizable
+  benchmarks and provenance-verified gold programs without manual annotation,
+  exposing multi-hop reasoning failures in frontier data agents.</p>
+  <p class="meta">
+    <a href="https://arxiv.org/abs/2611.14765">arXiv</a> ·
+    <a href="https://arxiv.org/pdf/2611.14765">PDF</a> ·
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7527139579410173952/">LinkedIn</a>
+  </p>
+</div>
+
+<div class="item">
+  <span class="title"><a href="https://arxiv.org/abs/2610.27327">Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics</a></span>
+  <div class="meta">Under review at ICLR 2027 · October 2026</div>
+  <p>Introduces TEAL, a label-free framework that evolves reusable tools,
+  precomputed data artifacts, and usage skills so coding agents stop
+  rediscovering and cleaning the same data lake from scratch on every query. An
+  Explorer surveys the lake while a Critic diagnoses agent trajectories, keeping
+  tool updates only when rerun evidence supports them, with tight step budgets
+  acting as a natural training signal in place of ground-truth labels.</p>
+  <p class="meta">
+    <a href="https://arxiv.org/abs/2610.27327">arXiv</a> ·
+    <a href="https://arxiv.org/pdf/2610.27327">PDF</a> ·
+    <a href="https://openreview.net/forum?id=ZJs3bOWgzy">OpenReview</a>
+  </p>
+</div>
 
 <div class="item">
   <span class="title"><a href="https://arxiv.org/abs/2312.08472">AutoNumerics-Zero: Automated Discovery of State-of-the-Art Mathematical Functions</a></span>
@@ -72,7 +105,11 @@ only as good as the data systems underneath them.
     <span class="subtitle">Data Cloud Frontier AI</span>
     <p>Building multi-agent deep research agents over enterprise data:
     systems where specialized agents plan, retrieve, and reason together over
-    governed data estates. My focus is agent quality and evaluation:
+    governed data estates, and evolve reusable tools across queries
+    (<a href="https://arxiv.org/abs/2610.27327">TEAL</a>). My focus is agent
+    quality, self-improvement, and evaluation: simulating corporate data
+    estates to generate provenance-verified benchmarks
+    (<a href="https://arxiv.org/abs/2611.14765">SynthCorp</a>),
     information-theoretic benchmark generation for data-discovery agents
     (<a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Discovery
     Bench</a>), capability maps that localize failure modes instead of
