@@ -38,6 +38,9 @@ only as good as the data systems underneath them.
   operations, schema migrations, and policy changes over time, generating
   realistic data estates (tables, docs, and catalogs) and verified reference
   queries without manual labeling.</p>
+  <p class="meta">
+    <a href="https://arxiv.org/abs/2611.14765">arXiv</a>
+  </p>
 </div>
 
 <div class="item">
