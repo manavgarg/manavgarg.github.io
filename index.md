@@ -33,31 +33,23 @@ only as good as the data systems underneath them.
 <div class="item">
   <span class="title"><a href="https://arxiv.org/abs/2611.14765">SynthCorp: A Platform for Creating Benchmarks for Data Agents</a></span>
   <div class="meta">Under review at VLDB · November 2026</div>
-  <p>Simulates how routine operations and business disruptions evolve corporate
-  data over time, materializing mutually consistent relational tables, policy
-  documents, and incomplete metadata catalogs. Because every complexity traces
-  to a logged event on a virtual calendar, SynthCorp derives customizable
-  benchmarks and provenance-verified gold programs without manual annotation,
-  exposing multi-hop reasoning failures in frontier data agents.</p>
-  <p class="meta">
-    <a href="https://arxiv.org/abs/2611.14765">arXiv</a> ·
-    <a href="https://arxiv.org/pdf/2611.14765">PDF</a> ·
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7527139579410173952/">LinkedIn</a>
-  </p>
+  <p>Static data-agent benchmarks saturate quickly and hide how enterprise data
+  gets messy in the first place. SynthCorp simulates a company's day-to-day
+  operations, schema migrations, and policy changes over time, generating
+  realistic data estates (tables, docs, and catalogs) and verified reference
+  queries without manual labeling.</p>
 </div>
 
 <div class="item">
   <span class="title"><a href="https://arxiv.org/abs/2610.27327">Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics</a></span>
   <div class="meta">Under review at ICLR 2027 · October 2026</div>
-  <p>Introduces TEAL, a label-free framework that evolves reusable tools,
-  precomputed data artifacts, and usage skills so coding agents stop
-  rediscovering and cleaning the same data lake from scratch on every query. An
-  Explorer surveys the lake while a Critic diagnoses agent trajectories, keeping
-  tool updates only when rerun evidence supports them, with tight step budgets
-  acting as a natural training signal in place of ground-truth labels.</p>
+  <p>Coding agents answering questions over a data lake throw away their work
+  after every query, rediscovering and cleaning the same files from scratch.
+  TEAL evolves a reusable library of tools and usage skills without ground-truth
+  labels, using tight step budgets as the signal for which tools actually
+  help.</p>
   <p class="meta">
     <a href="https://arxiv.org/abs/2610.27327">arXiv</a> ·
-    <a href="https://arxiv.org/pdf/2610.27327">PDF</a> ·
     <a href="https://openreview.net/forum?id=ZJs3bOWgzy">OpenReview</a>
   </p>
 </div>
@@ -105,10 +97,8 @@ only as good as the data systems underneath them.
     <span class="subtitle">Data Cloud Frontier AI</span>
     <p>Building multi-agent deep research agents over enterprise data:
     systems where specialized agents plan, retrieve, and reason together over
-    governed data estates, and evolve reusable tools across queries
-    (<a href="https://arxiv.org/abs/2610.27327">TEAL</a>). My focus is agent
-    quality, self-improvement, and evaluation: simulating corporate data
-    estates to generate provenance-verified benchmarks
+    governed data estates. My focus is agent quality and evaluation:
+    simulating evolving corporate data estates to benchmark data agents
     (<a href="https://arxiv.org/abs/2611.14765">SynthCorp</a>),
     information-theoretic benchmark generation for data-discovery agents
     (<a href="https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance">Discovery
